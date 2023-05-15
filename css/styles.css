@@ -47,6 +47,8 @@ body {
 
 /*#endregion */
 
+/*#region hero */
+
 .hero-content {
     background-color: #1f2937;
     padding: 64px 128px;
@@ -101,4 +103,47 @@ body {
 
 .sign-up-hero:active {
     background-color: rgb(56, 170, 246);
+}
+
+/*#endregion */
+
+.information {
+    display: flex;
+    gap: 32px;
+    padding: 96px 128px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.information-card-container {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.information-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-text {
+    width: 128px;
+    text-align: center;
+    font-size: 18px;
+    color: #a7a9ac;
+}
+
+.card-img {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    height: 128px;
+    width: 128px;
 }
