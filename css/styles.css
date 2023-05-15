@@ -152,6 +152,8 @@ body {
 
 /*#endregion*/
 
+/*#region quote */
+
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -171,3 +173,72 @@ body {
 .quote-author {
     align-self: flex-end;
 }
+
+/*#endregion */
+
+/*#region action */
+
+.action-container-bg {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 96px 128px;
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 12px 36px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.action-text-container {
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.action-text-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.action-text-content {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.action-button-container {
+    display: flex;
+    flex: 1;
+    align-self: center;
+    justify-content: center;
+}
+
+.sign-up-action {
+    flex: 1;
+    padding: 4px 32px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 2px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.sign-up-action:hover,
+.sign-up-action:active {
+    border: 2px solid rgb(56, 170, 246)
+}
+
+.sign-up-action:active {
+    background-color: rgb(56, 170, 246);
+}
+
+/*#endregion */
