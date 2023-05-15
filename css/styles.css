@@ -107,6 +107,8 @@ body {
 
 /*#endregion */
 
+/*#region information */
+
 .information {
     display: flex;
     gap: 32px;
@@ -146,4 +148,26 @@ body {
     border-radius: 16px;
     height: 128px;
     width: 128px;
+}
+
+/*#endregion*/
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    background-color: #e5e7eb;
+    padding: 96px 256px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    align-self: flex-end;
 }
