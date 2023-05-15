@@ -1,2 +1,2 @@
 # odin-landing-page
-ODP Project: Landing Page
+My repo for the ODP project "Landing Page".
